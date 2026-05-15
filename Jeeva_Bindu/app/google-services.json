@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "322794848057",
+    "project_id": "jeevabindu-986a9",
+    "storage_bucket": "jeevabindu-986a9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322794848057:android:bd7468937eeae22010f2e8",
+        "android_client_info": {
+          "package_name": "com.example.jeeva_binduhealthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC-73m1UNa7UVjzI35sYJGhUKUdVWYUYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322794848057:android:fc3463d414b5114310f2e8",
+        "android_client_info": {
+          "package_name": "com.jeevabindu.healthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC-73m1UNa7UVjzI35sYJGhUKUdVWYUYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

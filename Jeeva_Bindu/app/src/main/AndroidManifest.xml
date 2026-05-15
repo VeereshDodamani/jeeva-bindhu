@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Notifications -->
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        tools:targetApi="33" />
+
+    <!-- Google Services -->
+    <queries>
+        <package android:name="com.google.android.gms" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JeevaBinduHealthcare">
+
+        <!-- Google Maps API -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyClIwFAo3xNQkK5XG6P6Sgp8IU31IFVq7Y" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity
+            android:name=".RegisterDonorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PostEmergencyActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AlertsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AddSourceActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

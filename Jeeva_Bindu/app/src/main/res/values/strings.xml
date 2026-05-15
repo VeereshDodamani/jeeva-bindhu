@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jeeva-Bindu (Healthcare)</string>
+    <string name="brand_name">Jeeva-Bindu</string>
+    <string name="tagline">Saving Lives, One Drop at a Time</string>
+    <string name="title_register_donor">Register Blood Donor</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_blood_group">Blood Group</string>
+    <string name="hint_location">Location</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    <string name="btn_use_current_location">Use Current Location</string>
+    <string name="btn_register_donor">Register Donor</string>
+</resources>

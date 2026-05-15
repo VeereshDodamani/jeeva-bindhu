@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Blood Drop Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20C54,20 30,45 30,62C30,75.25 40.75,86 54,86C67.25,86 78,75.25 78,62C78,45 54,20 54,20Z" />
+    <!-- Plus Sign in center -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M51,52h6v20h-6zM44,59h20v6h-20z" />
+</vector>
